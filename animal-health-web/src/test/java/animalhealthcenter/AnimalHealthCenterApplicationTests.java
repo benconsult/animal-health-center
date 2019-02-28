@@ -1,4 +1,4 @@
-package com.springproject.animalhealthcenter;
+package animalhealthcenter;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
