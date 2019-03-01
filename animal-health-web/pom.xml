@@ -3,7 +3,7 @@
     <parent>
         <artifactId>animal-health-center</artifactId>
         <groupId>com.springproject</groupId>
-        <version>0.0.4</version>
+        <version>0.0.6</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -15,7 +15,7 @@
         <dependency>
             <artifactId>animal-health-center-data</artifactId>
             <groupId>com.springproject</groupId>
-            <version>0.0.4</version>
+            <version>0.0.6</version>
         </dependency>
 
         <dependency>

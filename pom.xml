@@ -15,7 +15,7 @@
     </parent>
     <groupId>com.springproject</groupId>
     <artifactId>animal-health-center</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.6</version>
     <name>animal-health-center</name>
     <description>Animal Health Center Application Using Spring</description>
 
@@ -54,7 +54,7 @@
                         <checkModificationExclude>animal-health-web/target</checkModificationExclude>
                         <checkModificationExclude>pom.xml.releaseBackup</checkModificationExclude>
                         <checkModificationExclude>release.properties</checkModificationExclude>
-
+                        <checkModificationExclude>animal-health-web/src/test/java/animalhealthcenter/AnimalHealthCenterApplicationTests.java</checkModificationExclude>
                     </checkModificationExcludes>
 
                 </configuration>
@@ -71,7 +71,7 @@
         <connection>scm:git:https://github.com/benconsult/animal-health-center.git</connection>
         <developerConnection>scm:git:https://github.com/benconsult/animal-health-center.git</developerConnection>
 
-      <tag>animal-health-center-0.0.4</tag>
+      <tag>animal-health-center-0.0.6</tag>
   </scm>
 
 </project>
