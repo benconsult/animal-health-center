@@ -67,7 +67,7 @@
 
     <scm>
 
-        <developerConnection>scm:git:[fetch=]ssh:git@github.com:benconsult/animal-health-center.git[push=]ssh:git@github.com:benconsult/animal-health-center.git</developerConnection>
+        <developerConnection>scm:git:[fetch=]https://github.com/benconsult/animal-health-center.git[push=]ssh:git@github.com:benconsult/animal-health-center.git</developerConnection>
 
       <tag>animal-health-center-0.0.8</tag>
   </scm>
