@@ -48,6 +48,13 @@
                         <checkModificationExclude>animal-health-web/pom.xml</checkModificationExclude>
                         <checkModificationExclude>animal-health-data/pom.xml</checkModificationExclude>
                         <checkModificationExclude>animal-health-center-data/pom.xml</checkModificationExclude>
+                        <checkModificationExclude>animal-health-center-data/pom.xml.releaseBackup</checkModificationExclude>
+                        <checkModificationExclude>animal-health-center-data/target</checkModificationExclude>
+                        <checkModificationExclude>animal-health-web/pom.xml.releaseBackup</checkModificationExclude>
+                        <checkModificationExclude>animal-health-web/target</checkModificationExclude>
+                        <checkModificationExclude>pom.xml.releaseBackup</checkModificationExclude>
+                        <checkModificationExclude>release.properties</checkModificationExclude>
+
                     </checkModificationExcludes>
 
                 </configuration>
@@ -59,6 +66,7 @@
 
 
     <scm>
+
         <url>https://github.com/benconsult/animal-health-center.git</url>
         <connection>scm:git:https://github.com/benconsult/animal-health-center.git</connection>
         <developerConnection>scm:git:https://github.com/benconsult/animal-health-center.git</developerConnection>
