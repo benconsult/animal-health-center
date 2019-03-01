@@ -67,9 +67,9 @@
 
     <scm>
 
-        <url>git:https://github.com/benconsult/animal-health-center.git</url>
-        <connection>scm:git:https://github.com/benconsult/animal-health-center.git</connection>
-        <developerConnection>scm:git:https://github.com/benconsult/animal-health-center.git</developerConnection>
+        <url>git@github.com:benconsult/animal-health-center.git</url>
+        <connection>scm:git:git@github.com:benconsult/animal-health-center.git</connection>
+        <developerConnection>git@github.com:benconsult/animal-health-center.git</developerConnection>
 
       <tag>animal-health-center-0.0.7</tag>
   </scm>
