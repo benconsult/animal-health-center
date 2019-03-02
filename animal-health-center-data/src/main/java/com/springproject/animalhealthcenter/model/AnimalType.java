@@ -1,6 +1,6 @@
 package com.springproject.animalhealthcenter.model;
 
-public class AnimalType {
+public class AnimalType extends BaseEntity {
     private String name;
 
     public String getName() {

@@ -2,7 +2,7 @@ package com.springproject.animalhealthcenter.model;
 
 import java.time.LocalDate;
 
-public class Animal {
+public class Animal extends BaseEntity {
     private AnimalType animalType;
     private Owner owner;
     private LocalDate birthdate;
