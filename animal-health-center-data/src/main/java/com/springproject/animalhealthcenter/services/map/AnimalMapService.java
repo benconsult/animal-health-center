@@ -2,9 +2,10 @@ package com.springproject.animalhealthcenter.services.map;
 
 import com.springproject.animalhealthcenter.model.Animal;
 import com.springproject.animalhealthcenter.services.AnimalService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class AnimalMapService extends AbstractMapService<Animal, Long> implements AnimalService {
 
 
