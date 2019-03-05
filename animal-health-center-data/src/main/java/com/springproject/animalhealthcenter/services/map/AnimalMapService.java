@@ -1,11 +1,11 @@
 package com.springproject.animalhealthcenter.services.map;
 
 import com.springproject.animalhealthcenter.model.Animal;
-import com.springproject.animalhealthcenter.services.CrudService;
+import com.springproject.animalhealthcenter.services.AnimalService;
 
 import java.util.Set;
 
-public class AnimalMapService extends AbstractMapService<Animal, Long> implements CrudService<Animal, Long> {
+public class AnimalMapService extends AbstractMapService<Animal, Long> implements AnimalService {
 
 
     @Override
