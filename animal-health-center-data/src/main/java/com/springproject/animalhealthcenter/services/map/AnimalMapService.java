@@ -21,7 +21,7 @@ public class AnimalMapService extends AbstractMapService<Animal, Long> implement
 
     @Override
     public Animal save(Animal object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override
