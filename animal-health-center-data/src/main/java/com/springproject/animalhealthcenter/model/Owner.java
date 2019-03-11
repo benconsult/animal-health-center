@@ -1,12 +1,14 @@
 package com.springproject.animalhealthcenter.model;
 
+import java.util.HashSet;
 import java.util.Set;
 
 public class Owner extends Person {
     private String address;
     private String city;
     private String telephone;
-    private Set<Animal> animals;
+    private Set<Animal> animals = new HashSet<>();//initialize animal so that when ew add new
+    //animal it is going to be added to the hashset
 
     public String getAddress() {
         return address;
