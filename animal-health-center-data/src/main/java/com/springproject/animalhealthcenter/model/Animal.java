@@ -2,6 +2,9 @@ package com.springproject.animalhealthcenter.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "animals")
 public class Animal extends BaseEntity {
@@ -15,6 +18,8 @@ public class Animal extends BaseEntity {
     private Owner owner;
     @Column(name = "birth_date")
     private LocalDate birthdate;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "animal")
+    private Set<Visit> visits = new HashSet<>();
 
     public String getName() {
         return name;
@@ -46,5 +51,13 @@ public class Animal extends BaseEntity {
 
     public void setBirthdate(LocalDate birthdate) {
         this.birthdate = birthdate;
+    }
+
+    public Set<Visit> getVisits() {
+        return visits;
+    }
+
+    public void setVisits(Set<Visit> visits) {
+        this.visits = visits;
     }
 }
