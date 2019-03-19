@@ -1,4 +1,5 @@
 package com.springproject.animalhealthcenter.model;
+//Animal Health Center Application Created By Benjamen Aremu
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -16,6 +17,7 @@ public class Owner extends Person {
     private Set<Animal> animals = new HashSet<>();//initialize animal so that when ew add new
     //animal it is going to be added to the hashset
 
+	//Adding getters and setters
     public String getAddress() {
         return address;
     }
